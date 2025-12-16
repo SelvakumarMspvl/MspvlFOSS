@@ -14,7 +14,7 @@ def getStudentDetails():
             tempList = [roll_no,name,dept,precentage]
             return tempList
         except ValueError:
-            print("Invalid Type of Value")
+            print("Invalid")
             # return None
         except TypeError:
             print("Invalid Type of Value")
